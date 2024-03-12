@@ -1,0 +1,85 @@
+/* navigation bar */
+.navbar {
+  background-color: rgb(7, 7, 7, 0.7);
+  box-shadow: 1px 1px 8px white;
+}
+.navbar-brand {
+  font-family: 'Courgette', cursive;
+  text-shadow: 1px 1px 5px;
+  transition: color 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar-toggler {
+  background-color: white;
+  font-size: 13px;
+}
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+.nav-item {
+  margin-right: 16px;
+  display: inline-block;
+}
+.nav-link {
+  color: white;
+  text-shadow: 2px 3px 7px;
+  transition: color 0.3s ease;
+  font-size: 16px;
+}
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+}
+.header-text {
+  margin-left: 8%;
+  margin-top: 20%;
+  font-size: 30px;
+  text-shadow: 1px 6px 2px #f5f6f7;
+}
+.header-text h1 {
+  margin-bottom: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 20px;
+  text-shadow: 4px 5px 1px #f5f6f7;
+  font-size: 70px;
+}
+.name {
+  color: #ff6999;
+}
+@media only screen and (max-width: 950px) {
+  .header-text h1 {
+    font-size: 55px;
+    margin-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header-text h1 {
+    font-size: 36px;
+    margin-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .header-text h1 {
+    font-size: 26px;
+    margin-bottom: 160px;
+  }
+}

@@ -1,0 +1,128 @@
+/* :root {
+  --clr-white: #ffffff;
+  --clr-white: #000000;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  background-color: white;
+  height: 100vh;
+  background-image: url("/public/programming-5287885_960_720.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Mouse movement circle */
+#circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(50, 223, 235, 0.2);
+  position: fixed;
+  transition: all 0s ease;
+  pointer-events: none;
+  background-color: rgba(50, 223, 235, 0.3);
+  transform: translate(-50%, -50%);
+}
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(211, 50, 85);
+  outline: 1px solid rgb(14, 13, 13);
+}
+/* HOME Section */
+.home-main {
+  font-family: "Courgette", cursive;
+  position: absolute;
+  color: rgb(51, 51, 51);
+  font-size: 30px;
+  margin-top: 18%;
+  margin-left: 8%;
+}
+.title-text {
+  font-size: 40px;
+  text-shadow: 4px 5px 1px #f5f6f7;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s ease, transform 1.2s ease;
+}
+.title-text.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.home-description {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s ease, transform 1.2s ease;
+}
+.home-description.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.home-main h1 {
+  font-size: 70px;
+  text-shadow: 4px 5px 1px #f5f6f7;
+}
+.description-container {
+  font-size: 20px;
+  text-shadow: 1px 2px 1px #f5f6f7;
+}
+.description-container p {
+  word-wrap: break-word;
+  margin-bottom: -2px;
+  margin-left: 7px;
+}
+@media only screen and (max-width: 680px) {
+  .home-main h1 {
+    font-size: 57px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home-main h1 {
+    font-size: 27px;
+  }
+  .title-text {
+    margin-top: 100px;
+    font-size: 25px;
+  }
+  .home-description p {
+    font-size: 16px;
+  }
+}
+.my-name {
+  color: rgb(212, 137, 162);
+}
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1.5s steps(80) forwards;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

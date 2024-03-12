@@ -1,0 +1,95 @@
+/* ABOUT Section */
+.hero {
+  min-height: 450px;
+  text-align: center;
+  color: white;
+  padding: 3rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.about-col-1 {
+  flex-basis: 30%;
+  margin-left: 10px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 1.2s ease;
+}
+.about-col-1.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.about-col-1 img {
+  /* margin-top: 70px; */
+  width: 90%;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+.about-col-1 img:hover {
+  transform: translateY(-0.5rem);
+}
+.about-col-2{
+  flex-basis: 60%;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s ease, transform 1.2s ease;
+}
+.about-col-2.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.about-title {
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  padding-bottom: 1rem;
+  padding-left: 15px;
+  margin: 2rem 0;
+}
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-title {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .about-title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about-title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .about-title {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .about-title {
+    font-size: 20px;
+  }
+}
+.about-description {
+  text-shadow: 1px 2px 0px white;
+  color: black;
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  max-width: 960px;
+  margin-left: 12px;
+}
+strong {
+  color: rgb(212, 35, 88);
+}

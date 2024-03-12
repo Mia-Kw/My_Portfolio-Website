@@ -1,0 +1,70 @@
+/* SERVICES Section */
+.services {
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.services.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media only screen and (max-width: 300px) {
+  .services {
+    font-size: 45px;
+  }
+}
+.experiencia {
+  padding: 40px 30px 60px 50px;
+}
+.experiencia .column {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+.experiencia .column:hover {
+  color: white;
+  background-color: rgb(149, 62, 207, 0.3);
+}
+.column {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.column.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.experiencia i {
+  font-size: 2.5rem;
+  color: #0d0e0d;
+  background-color: #fbf8fc;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.experience-description {
+  font-family: 'Roboto', sans-serif;
+}
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.badge {
+  margin: 5px;
+}

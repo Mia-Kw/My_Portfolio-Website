@@ -1,0 +1,13 @@
+/* FOOTER */
+.copyright {
+  font-family: "Courgette", cursive;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  text-align: center;
+  padding: 18px 0px 6px 0px;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(218, 217, 217);
+}
+.bi-suit-heart-fill {
+  color: #ff5f8f;
+}

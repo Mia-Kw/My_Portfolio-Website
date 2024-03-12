@@ -1,0 +1,57 @@
+/* SKILLS Section */
+.habilidades {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+.header-habilidades {
+  padding-top: 42px;
+  font-size: 60px;
+  font-family: 'Rubik Maps', system-ui;
+}
+.icon-card {
+  width: 8rem;
+  height: 8rem;
+  display: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.85rem;
+  transition: all 0.3s ease;
+  padding: 13px;
+  margin: 40px;
+}
+.icon-html {
+  border: 3.5px solid #ff7d3c;
+}
+.icon-css {
+  border: 3.5px solid #6494fb;
+}
+.icon-js {
+  border: 3.5px solid #d9f938;
+}
+.icon-bootstrap {
+  border: 3.5px solid #af27f8;
+}
+.icon-react {
+  border: 3.5px solid #30cfff;
+}
+.icon-git {
+  border: 3.5px solid #f36720;
+}
+.icon:hover {
+  transform: translateY(-1.0rem);
+}
+.icon {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 1.2s ease;
+}
+.icon.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.clear-section {
+  color: white;
+}

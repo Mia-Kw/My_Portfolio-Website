@@ -1,6 +1,7 @@
 /* PROJECTS Section */
 .recent-projects {
-  background-image: url(/public/computer-1873831_1280.webp);
+  /* background-image: url(/public/computer-1873831_1280.webp); */
+  background-color: rgb(20, 20, 20);
 }
 .recent-projects img {
   height: 100%;

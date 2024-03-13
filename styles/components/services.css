@@ -21,7 +21,8 @@
   }
 }
 .experiencia {
-  background-image: url(/public/interface-3614766_960_720.png);
+  /* background-image: url(/public/interface-3614766_960_720.png); */
+  background-color: rgb(20, 20, 20);
   background-size: cover;
   background-position: center;
   padding: 40px 30px 60px 50px;

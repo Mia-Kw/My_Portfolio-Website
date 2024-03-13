@@ -1,6 +1,7 @@
 /* ABOUT Section */
 .hero {
-  background-image: url(/public/architecture-1868667_960_720.jpg);
+  /* background-image: url(/public/architecture-1868667_960_720.jpg); */
+  background-color: rgb(20, 20, 20);
   background-size: cover;
   text-align: center;
   color: white;
@@ -36,6 +37,12 @@
   opacity: 0;
   transform: translateX(-50px);
   transition: opacity 0.5s ease, transform 1.2s ease;
+}
+.text-with-circle {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  padding: 10px;
 }
 .about-col-2.show {
   opacity: 1;
@@ -92,5 +99,5 @@
   margin-left: 12px;
 }
 strong {
-  color: rgb(182, 75, 211);
+  color: rgb(186, 48, 108);
 }

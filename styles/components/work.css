@@ -1,6 +1,7 @@
 /* WORKS Section */
 .projects {
-  background-image: url(/public/Visual-code-work.png);
+  /* background-image: url(/public/Visual-code-work.png); */
+  background-color: rgb(20, 20, 20);
   background-size: cover;
   padding-bottom: 120px;
   padding-left: 20px;

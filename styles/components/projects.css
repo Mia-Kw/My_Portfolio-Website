@@ -1,4 +1,7 @@
 /* PROJECTS Section */
+.recent-projects {
+  background-image: url(/public/computer-1873831_1280.webp);
+}
 .recent-projects img {
   height: 100%;
   width: 100%;

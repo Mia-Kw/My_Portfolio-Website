@@ -1,5 +1,7 @@
 /* WORKS Section */
 .projects {
+  background-image: url(/public/Visual-code-work.png);
+  background-size: cover;
   padding-bottom: 120px;
   padding-left: 20px;
 }

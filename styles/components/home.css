@@ -9,21 +9,12 @@
   height: 100%;
   object-fit: cover;
 }
-.img-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
 .home-main {
   font-family: "Courgette", cursive;
   position: absolute;
   color: rgb(51, 51, 51);
   font-size: 30px;
-  margin-top: 18%;
-  margin-left: 8%;
+  top: -5%;
 }
 .title-text {
   font-size: 40px;
@@ -76,7 +67,7 @@
   }
 }
 .my-name {
-  color: rgb(212, 137, 162);
+  color: rgb(190, 89, 123);
 }
 .typing-animation {
   overflow: hidden;

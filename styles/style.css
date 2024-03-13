@@ -12,9 +12,8 @@ html{
 }
 body {
   overflow-x: hidden;
-  background-color: white;
   height: 100vh;
-  background-image: url("/public/Programming-Hacks.png");
+  /* background-image: url("/public/Programming-Hacks.png"); */
   background-size: cover;
   background-attachment: fixed;
 }
@@ -36,7 +35,7 @@ body::-webkit-scrollbar {
   width: 8px;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(211, 50, 85);
+  background-color: rgb(222, 101, 139);
   outline: 1px solid rgb(14, 13, 13);
 }
 /* HOME Section */
